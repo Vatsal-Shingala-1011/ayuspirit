@@ -36,10 +36,12 @@ const Navbar = () => {
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Link to="/" className="text-2xl md:text-3xl font-serif font-bold text-ayu-green">
-          AyuSpirit
-        </Link>
-        
+         <div className="container mx-auto px-4 flex justify-between items-center ml-50">
+            <Link to="/" className="flex items-center space-x-2 text-2xl md:text-3xl font-serif font-bold text-ayu-green">
+              <img src="ayu1.png" alt="AyuSpirit Logo" className="w-1/4 object-contain" />
+            </Link>
+          </div>
+
         <nav className="hidden md:flex items-center space-x-8">
           <Link to="/" className="nav-link">Home</Link>
           <Link to="/products" className="nav-link">Products</Link>
